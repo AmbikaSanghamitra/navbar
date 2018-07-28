@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <title>Navbar</title>
+    <!--Stylesheets-->
+    <link rel="stylesheet" href="index.css">
+    <!--Fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Istok+Web:400,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="navheader">
+            <a style="padding-left: 20px;" href="#">Navbar</a>
+            <h2 class="menu">
+                <i class="fa fa-bars"></i>
+            </h2>
+        </div>
+        <nav class="navbody">
+            <ul>
+                <li>
+                    <a href="#">Home</a>
+                </li>
+                <li>
+                    <a href="#">Link</a>
+                </li>
+                <li>
+                    <a class="dropdown" href="#">Dropdown &nbsp
+                        <i class="fa fa-caret-down"></i>
+                    </a>
+                    <div id="myDropdown" class="dropdown-content">
+                        <a href="#">Home</a>
+                        <a href="#">About</a>
+                        <a href="#">Contact</a>
+                    </div>
+                </li>
+                <li>
+                    <a style="color: rgb(126, 123, 123);" href="#">Disabled</a>
+                </li>
+            </ul>
+
+            <div>
+                <input type="text" placeholder="Search">&nbsp;&nbsp;
+                <input type="submit" value="Search" style="cursor: pointer;">
+            </div>
+        </nav>
+    </div>
+    <script src="jquery-3.3.1.min.js"></script>
+    <script src="index.js"></script>
+</body>
+
+</html>
